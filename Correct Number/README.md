@@ -1,0 +1,1 @@
+Try to guess a number the computer chose.
