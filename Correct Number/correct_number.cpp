@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <vector>
+#include <typeinfo>
 
 void banner(std::string nickname);
 bool easy_game(std::string nickname, int wins, int loses);
@@ -25,9 +26,9 @@ int main(){
     }
 
     while(reset == 'y'){
-        std::cout << "\nChoose a Difficulty\n[e]asy\n[m]edium\n[h]ard\n>>> ";
+        std::cout << "\nChoose a Difficulty\n[E]asy\n[M]edium\n[H]ard\n>>> ";
         std::cin >> difficulty;
-        if(game_config(nickname, difficulty, wins, loses)){
+        if(game_config(nickname, std::tolower(difficulty), wins, loses)){
             wins++;
         }else{
             system("cls");
