@@ -1,0 +1,13 @@
+12
+carro
+peixe
+universo
+cartola
+cerveja
+serpente
+corrente
+crocodilo
+dinossauro
+patins
+macaco
+sushi
