@@ -1,2 +1,2 @@
 # Learning-CPP
-Here have my codes of language C++
+Here has my codes of language C++
